@@ -3,14 +3,13 @@ header {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   width: 100%;
-  max-width: 80rem;
+  max-width: 75rem;
   display: grid;
-  gap: 1rem;
 
-  p {
+  headline {
     width: 100%;
-    max-width: 80rem;
-    text: var(--h2);
+    max-width: 75rem;
+    font: var(--headline);
     color: var(--text-headline);
   }
 
@@ -21,7 +20,7 @@ header {
   
   header img {
     margin-inline: auto;
-    max-width: 80rem;
+    max-width: 75rem;
     width: 100%;
   }
 }
